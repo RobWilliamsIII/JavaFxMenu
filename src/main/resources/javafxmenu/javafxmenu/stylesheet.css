@@ -1,0 +1,63 @@
+/* Resets */
+.context-menu,
+.context-menu .menu-item,
+.menu,
+.text-field {
+    -fx-background-color: transparent;
+}
+
+.text-field {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 0;
+}
+
+/* Styles */
+
+.dateLabel {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.menuBar {
+    -fx-background-color: #ffecb3;
+}
+
+.menu-bar .label {
+
+    fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.menu {
+    -fx-font-size: 14;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffecb3;
+}
+
+.context-menu {
+    -fx-background-color: #ffd966;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+    -fx-font-weight: bold;
+
+}
+
+/* Hover effects */
+.context-menu .menu-item:hover {
+    -fx-background-color: #ffbf00;
+}
+
+.menu:hover {
+    -fx-background-color: #ffd966;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+
+
+
